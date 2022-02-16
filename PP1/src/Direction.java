@@ -42,7 +42,7 @@ public class Direction extends Thread{
         this.maze.moveRight();
         this.maze.moveDown();
         this.maze.moveDown();
-	*/
+	
 		
 	// This is a SAMPLE code for moving the student image in the maze
 	// and updates the information in Position.java GUI class, append text into the JTextArea object
@@ -54,7 +54,8 @@ public class Direction extends Thread{
 		if(this.maze.moveDown())
 		location.textArea.append("Moved to row " + maze.getCurrRow() + ", column " + maze.getCurrCol() + "\n");
 				
-		}	
+		}
+	*/
 		
 		location.textArea.append("Logo Found \n");
 		
