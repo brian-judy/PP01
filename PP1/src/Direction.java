@@ -16,7 +16,18 @@ public class Direction extends Thread{
 	// using the provided path/direction algorithm
 	
         public void run(){
-
+		
+	this.maze.moveRight();
+        this.maze.moveRight();
+        this.maze.moveRight();
+        this.maze.moveRight();
+        this.maze.moveRight();
+        this.maze.moveRight();
+        this.maze.moveRight();
+        this.maze.moveRight();
+        this.maze.moveRight();
+        this.maze.moveDown();
+        this.maze.moveDown();
 	// This is a SAMPLE code for moving the student image in the maze
 	// and updates the information in Position.java GUI class, append text into the JTextArea object
 	// you should delete/update this code and start your solution, you may just keep the part of updating the information
