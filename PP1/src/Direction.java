@@ -15,8 +15,21 @@ public class Direction extends Thread{
 	// This is the code part that needs to be programmed by students to solve the maze 
 	// using the provided path/direction algorithm
 	
+	
         public void run(){
+	/*
+	THIS IS MY PROPOSED SOLUTION -- ZACH
+	  while(!maze.isDone()) {
+        	if(this.maze.moveRight()) {
+        	location.textArea.append("Moved to row " + maze.getCurrRow() + ", column " + maze.getCurrCol() + "\n");
+        	}
+        		else if(this.maze.moveDown()) {
+        		location.textArea.append("Moved to row " + maze.getCurrRow() + ", column " + maze.getCurrCol() + "\n");
+        		}
+        }
+        */
 		
+        maze.isDone();
 	this.maze.moveRight();
         this.maze.moveRight();
         this.maze.moveRight();
