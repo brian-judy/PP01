@@ -17,8 +17,8 @@ public class Direction extends Thread{
 	
 	
         public void run(){
-	/*
-	THIS IS MY PROPOSED SOLUTION -- ZACH
+		
+	//THIS IS MY PROPOSED SOLUTION -- ZACH
 	  while(!maze.isDone()) {
         	if(this.maze.moveRight()) {
         	location.textArea.append("Moved to row " + maze.getCurrRow() + ", column " + maze.getCurrCol() + "\n");
@@ -27,9 +27,10 @@ public class Direction extends Thread{
         		location.textArea.append("Moved to row " + maze.getCurrRow() + ", column " + maze.getCurrCol() + "\n");
         		}
         }
-        */
 		
         maze.isDone();
+	
+	/* BRIAN'S ORIGINAL CODE
 	this.maze.moveRight();
         this.maze.moveRight();
         this.maze.moveRight();
@@ -41,6 +42,8 @@ public class Direction extends Thread{
         this.maze.moveRight();
         this.maze.moveDown();
         this.maze.moveDown();
+	*/
+		
 	// This is a SAMPLE code for moving the student image in the maze
 	// and updates the information in Position.java GUI class, append text into the JTextArea object
 	// you should delete/update this code and start your solution, you may just keep the part of updating the information
